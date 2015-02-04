@@ -1,0 +1,326 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/SCROLLER_ID"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:scrollbars="vertical"
+    android:fillViewport="true">
+    <AbsoluteLayout
+        android:layout_width="fill_parent"
+        android:layout_height="2000dp"
+        android:orientation="vertical"
+        android:background="#3498DB"
+
+        android:id="@+id/abcd">
+
+        <TextView
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:maxLines = "10"
+
+            />
+
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/imageView5" />
+
+
+
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/imageView12"
+            android:layout_x="20dp"
+            android:layout_y="135dp"
+            android:src="@drawable/oval"/>
+
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/imageView21"
+            android:layout_x="197dp"
+            android:layout_y="139dp"
+            android:src="@drawable/oval"/>
+
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/imageView23"
+            android:layout_x="102dp"
+            android:layout_y="243dp"
+            android:src="@drawable/oval"/>
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/imageView24"
+            android:layout_x="12dp"
+            android:layout_y="336dp"
+            android:src="@drawable/oval"/>
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/imageView25"
+            android:layout_x="218dp"
+            android:layout_y="331dp"
+            android:src="@drawable/oval"
+            />
+
+        <ImageView
+            android:layout_width="963dp"
+            android:layout_height="52dp"
+            android:id="@+id/imageView22"
+            android:layout_x="-169dp"
+            android:layout_y="72dp"
+            android:src="@drawable/cg"/>
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="81dp"
+            android:id="@+id/tv1"
+            android:background="#D4361D"
+            android:layout_x="0dp"
+            android:layout_y="0dp" />
+
+        <ImageView
+            android:layout_width="44dp"
+            android:layout_height="44dp"
+            android:id="@+id/imageView"
+            android:layout_x="172dp"
+            android:layout_y="1276dp"
+            android:src="@drawable/arrow2"/>
+
+        <ImageView
+            android:layout_width="44dp"
+            android:layout_height="44dp"
+            android:id="@+id/imageView2"
+            android:layout_x="164dp"
+            android:layout_y="455dp"
+            android:src="@drawable/arrow2" />
+
+        <ImageView
+            android:layout_width="734dp"
+            android:layout_height="40dp"
+            android:id="@+id/imageView31"
+            android:layout_x="-122dp"
+            android:layout_y="545dp"
+            android:src="@drawable/cg" />
+
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/imageView32"
+            android:layout_x="0dp"
+            android:layout_y="592dp"
+            android:src="@drawable/rect" />
+
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/imageView33"
+            android:layout_x="172dp"
+            android:layout_y="684dp"
+            android:src="@drawable/rect" />
+
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/imageView34"
+            android:layout_x="8dp"
+            android:layout_y="776dp"
+            android:src="@drawable/rect" />
+
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/imageView35"
+            android:layout_x="175dp"
+            android:layout_y="868dp"
+            android:src="@drawable/rect" />
+
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/imageView36"
+            android:layout_x="5dp"
+            android:layout_y="962dp"
+            android:src="@drawable/rect" />
+
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/imageView37"
+            android:layout_x="172dp"
+            android:layout_y="1060dp"
+            android:src="@drawable/rect" />
+
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/imageView38"
+            android:layout_x="0dp"
+            android:layout_y="1160dp"
+            android:src="@drawable/rect" />
+
+        <TextView
+            android:layout_width="230dp"
+            android:layout_height="55dp"
+            android:textAppearance="?android:attr/textAppearanceSmall"
+            android:id="@+id/title"
+            android:layout_x="72dp"
+            android:layout_y="14dp"
+            android:textSize="20dp"
+
+            android:textColor="#000"
+            android:text="AP Chemistry" />
+
+        <ImageView
+            android:layout_width="36dp"
+            android:layout_height="56dp"
+            android:id="@+id/imageView28"
+            android:layout_x="333dp"
+            android:layout_y="14dp"
+            android:src="@drawable/menu"
+            />
+
+        <TextView
+            android:layout_width="134dp"
+            android:layout_height="34dp"
+            android:textAppearance="?android:attr/textAppearanceSmall"
+            android:text="Key Words"
+            android:textSize="25dp"
+            android:id="@+id/title2"
+            android:layout_x="130dp"
+            android:layout_y="85dp"
+            android:textColor="#000" />
+
+        <TextView
+            android:layout_width="97dp"
+            android:layout_height="55dp"
+            android:textAppearance="?android:attr/textAppearanceSmall"
+            android:id="@+id/kw1"
+            android:textSize="15dp"
+            android:layout_x="127dp"
+            android:layout_y="259dp"
+            android:textColor="#000" />
+        <TextView
+            android:layout_width="97dp"
+            android:layout_height="55dp"
+            android:textAppearance="?android:attr/textAppearanceSmall"
+            android:id="@+id/kw2"
+            android:textSize="15dp"
+            android:layout_x="49dp"
+            android:layout_y="152dp"
+            android:textColor="#000" />
+        <TextView
+            android:layout_width="97dp"
+            android:layout_height="55dp"
+            android:textAppearance="?android:attr/textAppearanceSmall"
+            android:id="@+id/kw3"
+            android:textSize="15dp"
+            android:layout_x="227dp"
+            android:layout_y="152dp"
+            android:textColor="#000" />
+        <TextView
+            android:layout_width="97dp"
+            android:layout_height="55dp"
+            android:textAppearance="?android:attr/textAppearanceSmall"
+            android:id="@+id/kw4"
+            android:textSize="15dp"
+            android:layout_x="247dp"
+            android:layout_y="352dp"
+            android:textColor="#000" />
+        <TextView
+            android:layout_width="97dp"
+            android:layout_height="55dp"
+            android:textAppearance="?android:attr/textAppearanceSmall"
+            android:id="@+id/kw5"
+            android:textSize="15dp"
+            android:layout_x="57dp"
+            android:layout_y="354dp"
+            android:textColor="#000" />
+
+        <TextView
+            android:layout_width="122dp"
+            android:layout_height="40dp"
+            android:textColor="#000"
+            android:textAppearance="?android:attr/textAppearanceSmall"
+            android:text="Key Points"
+            android:textSize="15dp"
+            android:id="@+id/textView6"
+            android:layout_x="132dp"
+            android:layout_y="547dp" />
+
+        <TextView
+            android:layout_width="189dp"
+            android:layout_height="80dp"
+            android:text=""
+            android:textSize="10dp"
+            android:textColor="#000"
+            android:id="@+id/textView7"
+            android:layout_x="6dp"
+            android:layout_y="595dp"
+
+          />
+
+        <TextView
+            android:layout_width="189dp"
+            android:layout_height="80dp"
+            android:text=""
+            android:textSize="10dp"
+            android:textColor="#000"
+            android:id="@+id/textView8"
+            android:layout_x="178dp"
+            android:layout_y="687dp" />
+
+        <TextView
+            android:layout_width="189dp"
+            android:layout_height="80dp"
+            android:text=""
+            android:textSize="10dp"
+            android:textColor="#000"
+            android:id="@+id/textView9"
+            android:layout_x="14dp"
+            android:layout_y="779dp" />
+
+        <TextView
+            android:layout_width="189dp"
+            android:layout_height="80dp"
+            android:text=""
+            android:textSize="10dp"
+            android:textColor="#000"
+            android:id="@+id/textView10"
+            android:layout_x="185dp"
+            android:layout_y="871dp" />
+
+        <TextView
+            android:layout_width="189dp"
+            android:layout_height="80dp"
+            android:text=""
+            android:textSize="10dp"
+            android:textColor="#000"
+            android:id="@+id/textView11"
+            android:layout_x="11dp"
+            android:layout_y="964dp" />
+
+        <TextView
+            android:layout_width="189dp"
+            android:layout_height="80dp"
+            android:text=""
+            android:textSize="10dp"
+            android:textColor="#000"
+            android:id="@+id/textView12"
+            android:layout_x="183dp"
+            android:layout_y="1066dp" />
+
+        <TextView
+            android:layout_width="189dp"
+            android:layout_height="80dp"
+            android:text=""
+            android:textSize="10dp"
+            android:textColor="#000"
+            android:id="@+id/textView13"
+            android:layout_x="9dp"
+            android:layout_y="1162dp" />
+
+    </AbsoluteLayout>
+</ScrollView>

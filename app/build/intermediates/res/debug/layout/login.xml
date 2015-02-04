@@ -1,0 +1,97 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#34495e"
+    android:clickable="true"
+    android:id="@+id/log">
+
+
+    <ImageView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/imageView44"
+        android:src="@drawable/welcome"
+        android:layout_below="@+id/imageView3"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="25dp"/>
+
+    <ImageView
+        android:layout_width="40dp"
+        android:layout_height="40dp"
+        android:id="@+id/imageView3"
+        android:src="@drawable/logo"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="10dp" />
+
+    <EditText
+        android:layout_width="300dp"
+        android:layout_height="40dp"
+        android:id="@+id/editText2"
+        android:layout_marginTop="40dp"
+        android:layout_below="@+id/imageView44"
+        android:layout_centerHorizontal="true"
+        android:text="  Username"
+        android:textColor="#fff"
+        android:background="#26FFFFFF"/>
+
+    <EditText
+        android:layout_width="300dp"
+        android:layout_height="40dp"
+        android:id="@+id/editText3"
+        android:textColor="#fff"
+        android:text="  Password"
+        android:layout_marginTop="20dp"
+        android:background="#26FFFFFF"
+        android:layout_below="@+id/editText2"
+        android:layout_centerHorizontal="true" />
+
+    <ImageView
+        android:layout_width="190dp"
+        android:layout_height="100dp"
+        android:id="@+id/imageView4"
+        android:src="@drawable/lg"
+        android:layout_below="@+id/editText3"
+        android:layout_alignLeft="@+id/imageView44"
+        android:layout_marginTop="20dp" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Login"
+        android:textSize="25dp"
+        android:textColor="#fff"
+        android:id="@+id/textView25"
+android:layout_marginBottom="35dp"
+        android:layout_alignBottom="@+id/imageView4"
+        android:layout_centerHorizontal="true" />
+
+    <ImageView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/imageView6"
+        android:src="@drawable/fg"
+        android:layout_below="@+id/imageView4"
+        android:layout_alignRight="@+id/imageView44" />
+
+    <ImageView
+        android:layout_width="200dp"
+        android:layout_height="100dp"
+        android:id="@+id/imageView7"
+        android:src="@drawable/fbb"
+        android:layout_alignParentBottom="true"
+        android:layout_alignLeft="@+id/imageView6"
+        android:layout_alignRight="@+id/imageView6" />
+
+    <ImageView
+        android:layout_width="220dp"
+        android:layout_height="match_parent"
+        android:id="@+id/imageView8"
+        android:src="@drawable/tb"
+android:layout_marginBottom="0dp"
+        android:layout_below="@+id/textView25"
+        android:layout_centerHorizontal="true" />
+
+
+</RelativeLayout><!-- From: file:/home/mohammed/AndroidStudioProjects/Android/app/src/main/res/layout/login.xml -->

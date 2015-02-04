@@ -1,0 +1,276 @@
+<?xml version="1.0" encoding="utf-8"?>
+<AbsoluteLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#fff"
+    android:id="@+id/hello">
+
+
+
+
+    <ImageView
+        android:layout_width="60dp"
+        android:layout_height="60dp"
+        android:onClick="captureImageFromCamera"
+        android:id="@+id/fromCameraButton"
+        android:layout_x="157dp"
+        android:layout_y="533dp"
+        android:src="@drawable/cam"/>
+
+    <ImageView
+        android:layout_width="30dp"
+        android:layout_height="30dp"
+        android:id="@+id/fromFileButton"
+        android:layout_x="326dp"
+        android:layout_y="539dp"
+        android:onClick="captureImageFromSdCard"
+        android:src="@drawable/settings"/>
+
+    <ImageView
+        android:layout_width="18dp"
+        android:layout_height="18dp"
+        android:id="@+id/imageView30"
+        android:layout_x="327dp"
+        android:layout_y="28dp"
+        android:src="@drawable/search"/>
+
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="94dp"
+        android:id="@+id/textView"
+        android:layout_x="0dp"
+        android:layout_y="69dp"
+        android:background="#D4361D" />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="94dp"
+        android:id="@+id/textView2"
+        android:layout_x="2dp"
+        android:layout_y="164dp"
+        android:background="#F5A800" />
+
+    <TextView
+        android:layout_width="400dp"
+        android:layout_height="94dp"
+        android:id="@+id/textView3"
+        android:layout_x="-11dp"
+        android:layout_y="256dp"
+        android:background="#3498DB" />
+
+    <TextView
+        android:layout_width="400dp"
+        android:layout_height="94dp"
+        android:id="@+id/textView4"
+        android:layout_x="0dp"
+        android:layout_y="353dp"
+        android:background="#9B59B6" />
+
+    <TextView
+        android:layout_width="400dp"
+        android:layout_height="90dp"
+        android:id="@+id/textView5"
+        android:layout_x="-5dp"
+        android:layout_y="451dp"
+        android:background="#59B5B6" />
+    <ImageView
+        android:layout_width="46dp"
+        android:layout_height="58dp"
+        android:id="@+id/imageView23"
+        android:layout_x="6dp"
+        android:layout_y="84dp"
+        android:src="@drawable/chemicon"
+        />
+
+    <ImageView
+        android:layout_width="wrap_content"
+        android:layout_height="56dp"
+        android:id="@+id/imageView24"
+        android:layout_x="6dp"
+        android:layout_y="174dp"
+        android:src="@drawable/mathicon"
+        />
+
+    <ImageView
+        android:layout_width="61dp"
+        android:layout_height="wrap_content"
+        android:id="@+id/imageView25"
+        android:layout_x="5dp"
+        android:layout_y="266dp"
+        android:src="@drawable/eng"
+        />
+
+    <ImageView
+        android:layout_width="56dp"
+        android:layout_height="59dp"
+        android:id="@+id/imageView26"
+        android:layout_x="11dp"
+        android:layout_y="359dp"
+        android:src="@drawable/hist"/>
+
+    <ImageView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/imageView27"
+        android:layout_x="8dp"
+        android:layout_y="462dp"
+        android:src="@drawable/brain2"/>
+
+    <TextView
+        android:layout_width="213dp"
+        android:layout_height="66dp"
+        android:text="My Summits"
+        android:id="@+id/textView14"
+        android:layout_x="97dp"
+        android:layout_y="14dp"
+        android:textColor="#000"
+        android:textSize="30dp" />
+
+    <ImageView
+        android:layout_width="12dp"
+        android:layout_height="29dp"
+        android:id="@+id/imageView29"
+        android:layout_x="335dp"
+        android:layout_y="93dp"
+        android:src="@drawable/arrow"/>
+
+    <ImageView
+        android:layout_width="12dp"
+        android:layout_height="29dp"
+        android:id="@+id/imageView39"
+        android:layout_x="333dp"
+        android:layout_y="179dp"
+        android:src="@drawable/arrow"/>
+
+    <ImageView
+        android:layout_width="12dp"
+        android:layout_height="29dp"
+        android:id="@+id/imageView40"
+        android:layout_x="331dp"
+        android:layout_y="270dp"
+        android:src="@drawable/arrow"/>
+
+    <ImageView
+        android:layout_width="12dp"
+        android:layout_height="29dp"
+        android:id="@+id/imageView41"
+        android:layout_x="331dp"
+        android:layout_y="356dp"
+        android:src="@drawable/arrow"/>
+
+    <ImageView
+        android:layout_width="12dp"
+        android:layout_height="29dp"
+        android:id="@+id/imageView42"
+        android:layout_x="346dp"
+        android:layout_y="462dp"
+        android:src="@drawable/arrow"/>
+
+    <TextView
+        android:layout_width="248dp"
+        android:layout_height="39dp"
+        android:text="Redox Rxn Worksheet"
+        android:id="@+id/textView15"
+        android:layout_x="77dp"
+        android:layout_y="79dp"
+        android:textColor="#fff"
+        android:textSize="20dp" />
+
+    <TextView
+        android:layout_width="248dp"
+        android:layout_height="39dp"
+        android:text="Integrals"
+        android:id="@+id/textView16"
+        android:layout_x="83dp"
+        android:layout_y="162dp"
+        android:textColor="#fff"
+        android:textSize="20dp" />
+
+    <TextView
+        android:layout_width="248dp"
+        android:layout_height="39dp"
+        android:text="Bacons Rebellion"
+        android:id="@+id/textView17"
+        android:layout_x="71dp"
+        android:layout_y="262dp"
+        android:textColor="#fff"
+        android:textSize="20dp" />
+
+    <TextView
+        android:layout_width="248dp"
+        android:layout_height="39dp"
+        android:text="Appomatox"
+        android:id="@+id/textView18"
+        android:layout_x="71dp"
+        android:layout_y="356dp"
+        android:textColor="#fff"
+        android:textSize="20dp" />
+
+    <TextView
+        android:layout_width="248dp"
+        android:layout_height="39dp"
+        android:text="Imprinting"
+        android:id="@+id/textView19"
+        android:layout_x="65dp"
+        android:layout_y="454dp"
+        android:textColor="#fff"
+        android:textSize="20dp" />
+
+    <TextView
+        android:layout_width="131dp"
+        android:layout_height="20dp"
+        android:textAppearance="?android:attr/textAppearanceSmall"
+        android:text="1-25-15"
+        android:id="@+id/textView20"
+        android:layout_x="247dp"
+        android:layout_y="114dp"
+        android:textColor="#fff" />
+
+    <TextView
+        android:layout_width="131dp"
+        android:layout_height="20dp"
+        android:textAppearance="?android:attr/textAppearanceSmall"
+        android:text="1-25-15"
+        android:id="@+id/textView21"
+        android:layout_x="247dp"
+        android:layout_y="200dp"
+        android:textColor="#fff" />
+
+    <TextView
+        android:layout_width="131dp"
+        android:layout_height="20dp"
+        android:textAppearance="?android:attr/textAppearanceSmall"
+        android:text="1-25-15"
+        android:id="@+id/textView22"
+        android:layout_x="247dp"
+        android:layout_y="291dp"
+        android:textColor="#fff" />
+
+    <TextView
+        android:layout_width="131dp"
+        android:layout_height="20dp"
+        android:textAppearance="?android:attr/textAppearanceSmall"
+        android:text="1-25-15"
+        android:id="@+id/textView23"
+        android:layout_x="223dp"
+        android:layout_y="391dp"
+        android:textColor="#fff" />
+
+    <TextView
+        android:layout_width="131dp"
+        android:layout_height="20dp"
+        android:textAppearance="?android:attr/textAppearanceSmall"
+        android:text="1-25-15"
+        android:id="@+id/textView24"
+        android:layout_x="229dp"
+        android:layout_y="462dp"
+        android:textColor="#fff" />
+    <ImageView
+        android:layout_width="58dp"
+        android:layout_height="58dp"
+        android:id="@+id/imageView31"
+        android:layout_x="34dp"
+        android:layout_y="538dp"
+        android:src="@drawable/file"/>
+</AbsoluteLayout>

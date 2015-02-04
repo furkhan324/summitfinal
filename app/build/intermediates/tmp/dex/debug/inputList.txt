@@ -1,0 +1,6 @@
+/home/mohammed/AndroidStudioProjects/Android/app/build/intermediates/classes/debug
+/home/mohammed/AndroidStudioProjects/Android/app/build/intermediates/pre-dexed/debug/classes-93e5fd0a1fabfc9ea50bf026d30fd0b7263cb051.jar
+/home/mohammed/AndroidStudioProjects/Android/app/build/intermediates/pre-dexed/debug/stateless4j-2.4.0-a1605389fa18e7352a9afc562f8903e0127b4de9.jar
+/home/mohammed/AndroidStudioProjects/Android/app/build/intermediates/pre-dexed/debug/jackson-core-asl-1.9.2-3708b5e1cf6d2b25363b1bb4ec0f353585599611.jar
+/home/mohammed/AndroidStudioProjects/Android/app/build/intermediates/pre-dexed/debug/couchbase-lite-java-core-1.0.3.1-880825548521c349c190ae4358fb039ce542afd1.jar
+/home/mohammed/AndroidStudioProjects/Android/app/build/intermediates/pre-dexed/debug/jackson-mapper-asl-1.9.2-61c13e525529b4969a4e30d9e518e9d7c413618c.jar

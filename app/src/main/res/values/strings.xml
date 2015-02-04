@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Android.demo</string>
+    <string name="menu_settings">Settings</string>
+    <string name="title_activity_main">ABBYY Cloud OCR SDK Demo App</string>
+    <string name="fromCamera">From Camera</string>
+    <string name="fromFile">From File</string>
+    <string name="title_activity_results">Results</string>
+    <string name="hello">hello</string>
+</resources>

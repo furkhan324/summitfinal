@@ -1,0 +1,301 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#bdc3c7"
+    android:id="@+id/bb">
+
+    <TextView
+        android:layout_width="200dp"
+        android:layout_height="50dp"
+        android:text="My Summits"
+        android:gravity="center"
+        android:textSize="26dp"
+        android:textColor="#000"
+        android:id="@+id/textView26"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="4dp" />
+
+    <TextView
+        android:layout_width="fill_parent"
+        android:layout_height="108dp"
+        android:id="@+id/textView27"
+        android:layout_below="@+id/textView26"
+        android:layout_alignParentRight="true"
+        android:background="#2c3e50" />
+
+    <TextView
+        android:layout_width="fill_parent"
+        android:layout_height="105dp"
+        android:id="@+id/textView28"
+        android:background="#2c3e50"
+        android:layout_below="@+id/textView27"
+        android:layout_alignParentRight="true" />
+
+    <TextView
+        android:layout_width="fill_parent"
+        android:layout_height="105dp"
+        android:id="@+id/textView29"
+        android:background="#2c3e50"
+        android:layout_below="@+id/textView28"
+        android:layout_alignParentRight="true" />
+
+    <TextView
+        android:layout_width="fill_parent"
+        android:layout_height="105dp"
+        android:id="@+id/textView30"
+        android:background="#2c3e50"
+        android:layout_below="@+id/textView29"
+        android:layout_alignParentLeft="true" />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="105dp"
+        android:id="@+id/textView31"
+        android:background="#2c3e50"
+        android:layout_below="@+id/textView30"
+        android:layout_alignParentRight="true" />
+    <ImageView
+        android:layout_width="45dp"
+        android:layout_height="45dp"
+        android:onClick="captureImageFromCamera"
+        android:id="@+id/fromCameraButton"
+        android:layout_marginBottom="8dp"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        android:src="@drawable/cam"/>
+
+    <ImageView
+        android:layout_width="25dp"
+        android:layout_height="25dp"
+        android:id="@+id/fromFileButton"
+        android:layout_marginBottom="15dp"
+        android:layout_marginLeft="10dp"
+        android:onClick="captureImageFromSdCard"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentBottom="true"
+        android:src="@drawable/settings"/>
+    <ImageView
+        android:layout_width="30dp"
+        android:layout_height="30dp"
+        android:id="@+id/fromFileButton2"
+        android:layout_marginBottom="15dp"
+        android:layout_marginRight="10dp"
+        android:onClick="captureImageFromSdCard"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentBottom="true"
+        android:src="@drawable/folder"/>
+    <ImageView
+        android:layout_marginTop="20dp"
+        android:layout_width="40dp"
+        android:layout_height="45dp"
+        android:id="@+id/imageView23"
+        android:src="@drawable/chemicon"
+        android:layout_alignTop="@+id/textView27"
+        android:layout_alignLeft="@+id/imageView24"
+        android:layout_marginLeft="5dp" />
+
+    <ImageView
+        android:layout_width="40dp"
+        android:layout_height="45dp"
+        android:id="@+id/imageView24"
+        android:src="@drawable/mathicon"
+        android:layout_marginTop="20dp"
+        android:layout_alignTop="@+id/textView30"
+        android:layout_alignLeft="@+id/imageView27"
+        android:layout_marginLeft="5dp" />
+
+    <ImageView
+        android:layout_width="40dp"
+        android:layout_height="45dp"
+        android:id="@+id/imageView25"
+        android:layout_marginTop="20dp"
+        android:src="@drawable/eng"
+        android:layout_alignTop="@+id/textView29"
+        android:layout_alignLeft="@+id/imageView26"
+        android:layout_marginLeft="5dp" />
+
+    <ImageView
+        android:layout_width="40dp"
+        android:layout_height="45dp"
+        android:id="@+id/imageView26"
+        android:layout_marginTop="20dp"
+        android:src="@drawable/hist"
+        android:layout_alignTop="@+id/textView28"
+        android:layout_alignLeft="@+id/imageView27"
+        android:layout_marginLeft="5dp" />
+
+    <ImageView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/imageView27"
+        android:src="@drawable/brain2"
+        android:layout_marginTop="20dp"
+        android:layout_alignTop="@+id/textView31"
+        android:layout_alignLeft="@+id/imageView27" />
+
+    <TextView
+        android:layout_width="200dp"
+        android:layout_height="25dp"
+        android:text="Redox Reactions"
+        android:textSize="20dp"
+        android:gravity="center"
+        android:id="@+id/textView32"
+        android:textColor="#16a085"
+        android:layout_alignTop="@+id/imageView23"
+        android:layout_centerHorizontal="true" />
+
+    <TextView
+        android:layout_width="200dp"
+        android:layout_height="25dp"
+        android:text="Bacons Rebellion"
+        android:textSize="20dp"
+        android:textColor="#16a085"
+        android:id="@+id/textView33"
+        android:gravity="center"
+        android:layout_alignTop="@+id/imageView26"
+        android:layout_alignRight="@+id/textView32" />
+
+    <TextView
+        android:layout_width="200dp"
+        android:gravity="center"
+        android:layout_height="25dp"
+        android:text="Discourse of Society"
+        android:textSize="20dp"
+        android:textColor="#16a085"
+        android:id="@+id/textView34"
+        android:layout_alignTop="@+id/imageView25"
+        android:layout_alignLeft="@+id/textView33" />
+
+    <TextView
+        android:layout_width="200dp"
+        android:layout_height="25dp"
+        android:textSize="20dp"
+        android:gravity="center"
+        android:textColor="#16a085"
+        android:id="@+id/textView35"
+        android:layout_alignTop="@+id/imageView24"
+        android:layout_alignRight="@+id/textView34"
+        android:text="Integral History" />
+
+    <TextView
+        android:layout_width="200dp"
+        android:layout_height="25dp"
+        android:text="Imprinting"
+        android:textSize="20dp"
+        android:gravity="center"
+        android:textColor="#16a085"
+        android:id="@+id/textView36"
+        android:layout_alignTop="@+id/imageView27"
+        android:layout_alignRight="@+id/textView35" />
+
+    <ImageView
+        android:layout_width="15dp"
+        android:layout_height="15dp"
+        android:id="@+id/imageView10"
+        android:src="@drawable/arrow"
+        android:layout_alignBottom="@+id/textView32"
+        android:layout_alignRight="@+id/fromFileButton2" />
+
+    <ImageView
+        android:layout_width="15dp"
+        android:layout_height="15dp"
+        android:id="@+id/imageView11"
+        android:src="@drawable/arrow"
+        android:layout_alignBottom="@+id/textView33"
+        android:layout_alignRight="@+id/fromFileButton2" />
+    <ImageView
+        android:layout_width="15dp"
+        android:layout_height="15dp"
+        android:id="@+id/imageView12"
+        android:src="@drawable/arrow"
+        android:layout_alignBottom="@+id/textView34"
+        android:layout_alignRight="@+id/fromFileButton2" />
+    <ImageView
+        android:layout_width="15dp"
+        android:layout_height="15dp"
+        android:id="@+id/imageView13"
+        android:src="@drawable/arrow"
+        android:layout_alignBottom="@+id/textView35"
+        android:layout_alignRight="@+id/fromFileButton2" />
+    <ImageView
+        android:layout_width="15dp"
+        android:layout_height="15dp"
+        android:id="@+id/imageView14"
+        android:src="@drawable/arrow"
+        android:layout_alignBottom="@+id/textView36"
+        android:layout_alignRight="@+id/fromFileButton2" />
+
+    <TextView
+        android:layout_width="200dp"
+        android:layout_height="50dp"
+        android:textAppearance="?android:attr/textAppearanceSmall"
+        android:text="'Lorem Ipsum is simply dummy text of the printing and typesetting industry.''"
+        android:id="@+id/textView37"
+        android:gravity="center"
+        android:layout_below="@+id/textView32"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="3dp"
+        android:textSize="16dp"
+        android:textColor="#fff" />
+    <TextView
+        android:layout_width="200dp"
+        android:layout_height="50dp"
+        android:textAppearance="?android:attr/textAppearanceSmall"
+        android:text="'Lorem Ipsum is simply dummy text of the printing and typesetting industry.' "
+        android:id="@+id/textView38"
+        android:gravity="center"
+        android:layout_below="@+id/textView33"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="3dp"
+        android:textSize="16dp"
+        android:textColor="#fff" />
+    <TextView
+        android:layout_width="200dp"
+        android:layout_height="50dp"
+        android:textAppearance="?android:attr/textAppearanceSmall"
+        android:text="'Lorem Ipsum is simply dummy text of the printing and typesetting'"
+        android:id="@+id/textView39"
+        android:gravity="center"
+        android:layout_below="@+id/textView34"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="3dp"
+        android:textSize="16dp"
+        android:textColor="#fff" />
+    <TextView
+        android:layout_width="200dp"
+        android:layout_height="50dp"
+        android:textAppearance="?android:attr/textAppearanceSmall"
+        android:text="'Lorem Ipsum is simply dummy text of the printing and typesetting '"
+        android:id="@+id/textView40"
+        android:gravity="center"
+        android:layout_below="@+id/textView35"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="3dp"
+        android:textSize="16dp"
+        android:textColor="#fff" />
+    <TextView
+        android:layout_width="200dp"
+        android:layout_height="50dp"
+        android:textAppearance="?android:attr/textAppearanceSmall"
+        android:text="'Lorem Ipsum is simply dummy text of the printing and typesetting '"
+        android:id="@+id/textView41"
+        android:gravity="center"
+        android:layout_below="@+id/textView36"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="3dp"
+        android:textSize="16dp"
+        android:textColor="#fff" />
+
+    <TextView
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:id="@+id/textView54"
+        android:layout_below="@+id/textView31"
+        android:background="#2c3e50"
+        android:layout_marginBottom="55dp" />
+
+
+</RelativeLayout><!-- From: file:/home/mohammed/AndroidStudioProjects/Android/app/src/main/res/layout/home2.xml -->

@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/SCROLLER_ID"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:scrollbars="vertical"
+    android:fillViewport="true">
+    <RelativeLayout
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:orientation="vertical"
+        android:background="#34495e"
+
+        android:id="@+id/abcd">
+
+<ImageView android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:src="@drawable/logo"
+    android:layout_x="158dp"
+    android:layout_y="173dp"
+    android:layout_alignTop="@+id/imageView43"
+    android:layout_centerHorizontal="true">
+    </ImageView>
+
+        <ImageView android:layout_width="209dp"
+            android:layout_height="209dp"
+            android:src="@drawable/text"
+            android:layout_x="93dp"
+            android:layout_y="152dp"
+            android:layout_centerVertical="true"
+            android:layout_centerHorizontal="true"
+            android:id="@+id/imageView43">
+            </ImageView>
+
+        <ProgressBar
+            android:id="@+id/progressBar1"
+
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:indeterminate="true"
+            android:max="100"
+            android:minHeight="50dp"
+            android:minWidth="200dp"
+            android:progress="25"
+            android:layout_alignBottom="@+id/imageView43"
+            android:layout_alignLeft="@+id/imageView43"
+            android:layout_marginTop="20dp" />
+    </RelativeLayout>
+</ScrollView>

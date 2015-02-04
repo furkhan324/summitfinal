@@ -1,0 +1,234 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#bdc3c7">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="50dp"
+        android:text="Battle of Gettysburg"
+        android:gravity="center"
+        android:textSize="26dp"
+        android:textColor="#000"
+        android:id="@+id/textView42"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="4dp" />
+
+    <ImageView
+        android:layout_width="45dp"
+        android:layout_height="60dp"
+        android:id="@+id/imageView9"
+        android:layout_alignBottom="@+id/textView42"
+        android:layout_alignParentLeft="true"
+        android:src="@drawable/arrow4"
+        android:layout_marginLeft="10dp"
+        android:layout_marginTop="5dp" />
+    <ImageView
+        android:layout_width="45dp"
+        android:layout_height="45dp"
+        android:onClick="captureImageFromCamera"
+        android:id="@+id/cam2"
+        android:layout_marginBottom="8dp"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        android:src="@drawable/cam"/>
+    <ScrollView
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:layout_below="@+id/textView42"
+        android:layout_marginBottom="55dp">
+    <RelativeLayout
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:layout_below="@+id/textView42"
+        android:layout_centerHorizontal="true"
+        android:background="#34495e"
+        android:layout_alignParentBottom="true"
+        android:layout_marginBottom="55dp"
+        android:id="@+id/rl">
+
+
+        <TextView
+            android:layout_width="50dp"
+            android:layout_height="50dp"
+            android:text="  By the Numbers"
+
+            android:id="@+id/textView43"
+            android:gravity="center_vertical"
+            android:textSize="25dp"
+            android:textColor="#fff"
+            android:layout_alignParentTop="true"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentRight="true"
+            android:layout_marginTop="0dp"
+            android:background="#26FFFFFF" />
+
+        <TextView
+            android:layout_width="fill_parent"
+            android:layout_height="50dp"
+            android:text="  Intelligent Summarry"
+            android:id="@+id/textView44"
+            android:gravity="center_vertical"
+            android:textSize="25dp"
+            android:textColor="#fff"
+            android:background="#26FFFFFF"
+            android:layout_below="@+id/textView50"
+            android:layout_alignParentLeft="true"
+            android:layout_marginTop="10dp" />
+
+        <ImageView
+            android:layout_width="125dp"
+            android:layout_height="125dp"
+            android:id="@+id/imageView15"
+            android:src="@drawable/graycircle"
+            android:layout_below="@+id/textView43"
+            android:layout_alignParentLeft="true"
+            android:layout_marginTop="20dp"
+            android:layout_marginLeft="20dp" />
+
+        <TextView
+            android:layout_width="100dp"
+            android:layout_height="40dp"
+            android:textAppearance="?android:attr/textAppearanceSmall"
+            android:text="1863"
+            android:id="@+id/textView45"
+android:gravity="center"
+            android:textColor="#fff"
+
+            android:layout_marginTop="110dp"
+            android:layout_alignLeft="@+id/imageView15"
+            android:layout_marginLeft="15dp"
+            android:textSize="30dp" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textAppearance="?android:attr/textAppearanceLarge"
+            android:text="&quot;Declaration of Emancipation Porclamation&quot;"
+            android:id="@+id/textView46"
+            android:layout_alignBottom="@+id/imageView15"
+            android:layout_toRightOf="@+id/textView45"
+            android:layout_marginBottom="55dp"
+            android:layout_marginLeft="25dp"
+            android:textColor="#16a085" />
+
+        <TextView
+            android:layout_width="fill_parent"
+            android:layout_height="60dp"
+            android:text="~66000"
+            android:gravity="center"
+            android:id="@+id/textView47"
+            android:textSize="40dp"
+            android:textColor="#fff"
+            android:layout_below="@+id/imageView15"
+            android:layout_alignRight="@+id/textView46"
+            android:layout_marginTop="30dp" />
+
+        <TextView
+            android:layout_width="fill_parent"
+            android:layout_height="50dp"
+            android:textAppearance="?android:attr/textAppearanceLarge"
+            android:text="&quot;# of causualties in Gettysburg conflict&quot;"
+            android:id="@+id/textView48"
+            android:gravity="center"
+            android:layout_below="@+id/textView47"
+            android:layout_centerHorizontal="true"
+            android:layout_marginTop="0dp"
+            android:textColor="#16a085" />
+
+        <ImageView
+            android:layout_width="300dp"
+            android:layout_height="wrap_content"
+            android:id="@+id/imageView16"
+            android:src="@drawable/line5"
+            android:layout_below="@+id/imageView15"
+            android:layout_centerHorizontal="true"
+            android:layout_marginTop="20dp" />
+
+        <ImageView
+            android:layout_width="300dp"
+            android:layout_height="wrap_content"
+            android:id="@+id/imageView17"
+            android:src="@drawable/line5"
+            android:layout_below="@+id/textView48"
+            android:layout_centerHorizontal="true"
+            android:layout_marginTop="20dp" />
+
+        <TextView
+            android:layout_width="fill_parent"
+            android:layout_height="60dp"
+            android:text="July 3,1863"
+            android:gravity="center"
+            android:id="@+id/textView49"
+            android:textSize="40dp"
+            android:textColor="#fff"
+            android:layout_below="@+id/imageView17"
+            android:layout_centerHorizontal="true"
+            android:layout_marginTop="10dp" />
+
+        <TextView
+            android:layout_width="fill_parent"
+            android:layout_height="50dp"
+            android:textAppearance="?android:attr/textAppearanceLarge"
+            android:text="&quot;Ceasefire:End of battle&quot;"
+            android:id="@+id/textView50"
+            android:gravity="center"
+            android:textColor="#16a085"
+            android:layout_below="@+id/textView49"
+            android:layout_alignLeft="@+id/imageView15"
+            android:layout_marginTop="0dp" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textAppearance="?android:attr/textAppearanceLarge"
+            android:text="  ~Having concentrated his army around the small town of Gettysburg, Pennsylvania, Gen. Robert E. Lee awaited the approach of Union Gen. George G. Meade’s forces. On July 1, early Union success faltered as Confederates pushed back against the Iron Brigade and exploited a weak Federal line at Barlow’s Knoll. "
+            android:id="@+id/textView51"
+      android:gravity="center_vertical"
+            android:textColor="#fff"
+            android:layout_below="@+id/textView44"
+            android:layout_alignRight="@+id/textView47"
+            android:layout_marginTop="15dp"
+            android:layout_marginLeft="10dp" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="80dp"
+            android:textAppearance="?android:attr/textAppearanceLarge"
+            android:text=" Lee&apos;s second invasion of the North had failed, and had resulted in heavy casualties"
+            android:id="@+id/textView52"
+            android:gravity="center_vertical"
+            android:textColor="#fff"
+            android:layout_below="@+id/textView51"
+            android:layout_centerHorizontal="true"
+            android:layout_marginTop="20dp"
+            android:layout_marginLeft="10dp"
+            android:layout_marginBottom="15dp" />
+
+    </RelativeLayout>>
+</ScrollView>
+    <ImageView
+        android:layout_width="25dp"
+        android:layout_height="25dp"
+        android:id="@+id/settings2"
+        android:layout_marginBottom="15dp"
+        android:layout_marginLeft="10dp"
+        android:onClick="captureImageFromSdCard"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentBottom="true"
+        android:src="@drawable/settings"/>
+    <ImageView
+        android:layout_width="30dp"
+        android:layout_height="30dp"
+        android:id="@+id/file2"
+
+        android:layout_marginBottom="15dp"
+        android:layout_marginRight="10dp"
+        android:onClick="captureImageFromSdCard"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentBottom="true"
+        android:src="@drawable/folder"/>
+
+</RelativeLayout>

@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<items version="2" >
+
+    <item
+        jar="/home/mohammed/.gradle/caches/modules-2/files-2.1/com.github.oxo42/stateless4j/2.4.0/128aca4ace585f0b42faa739d0b968a154debb7a/stateless4j-2.4.0.jar"
+        jumboMode="false"
+        revision="21.1.2"
+        sha1="128aca4ace585f0b42faa739d0b968a154debb7a">
+        <dex dex="/home/mohammed/AndroidStudioProjects/Android/app/build/intermediates/pre-dexed/debug/stateless4j-2.4.0-a1605389fa18e7352a9afc562f8903e0127b4de9.jar" />
+    </item>
+    <item
+        jar="/home/mohammed/.gradle/caches/modules-2/files-2.1/org.codehaus.jackson/jackson-mapper-asl/1.9.2/95400a7922ce75383866eb72f6ef4a7897923945/jackson-mapper-asl-1.9.2.jar"
+        jumboMode="false"
+        revision="21.1.2"
+        sha1="95400a7922ce75383866eb72f6ef4a7897923945">
+        <dex dex="/home/mohammed/AndroidStudioProjects/Android/app/build/intermediates/pre-dexed/debug/jackson-mapper-asl-1.9.2-61c13e525529b4969a4e30d9e518e9d7c413618c.jar" />
+    </item>
+    <item
+        jar="/home/mohammed/AndroidStudioProjects/Android/app/build/intermediates/exploded-aar/com.couchbase.lite/couchbase-lite-android/1.0.3.1/classes.jar"
+        jumboMode="false"
+        revision="21.1.2"
+        sha1="a2fa0cc9a91d6064857f3ecb6cc4d8415982b567">
+        <dex dex="/home/mohammed/AndroidStudioProjects/Android/app/build/intermediates/pre-dexed/debug/classes-93e5fd0a1fabfc9ea50bf026d30fd0b7263cb051.jar" />
+    </item>
+    <item
+        jar="/home/mohammed/.gradle/caches/modules-2/files-2.1/com.couchbase.lite/couchbase-lite-java-core/1.0.3.1/c96078de4bf2ec18e016e1453ef7a441b932ddca/couchbase-lite-java-core-1.0.3.1.jar"
+        jumboMode="false"
+        revision="21.1.2"
+        sha1="c96078de4bf2ec18e016e1453ef7a441b932ddca">
+        <dex dex="/home/mohammed/AndroidStudioProjects/Android/app/build/intermediates/pre-dexed/debug/couchbase-lite-java-core-1.0.3.1-880825548521c349c190ae4358fb039ce542afd1.jar" />
+    </item>
+    <item
+        jar="/home/mohammed/.gradle/caches/modules-2/files-2.1/org.codehaus.jackson/jackson-core-asl/1.9.2/8493982bba1727106d767034bd0d8e77bc1931a9/jackson-core-asl-1.9.2.jar"
+        jumboMode="false"
+        revision="21.1.2"
+        sha1="8493982bba1727106d767034bd0d8e77bc1931a9">
+        <dex dex="/home/mohammed/AndroidStudioProjects/Android/app/build/intermediates/pre-dexed/debug/jackson-core-asl-1.9.2-3708b5e1cf6d2b25363b1bb4ec0f353585599611.jar" />
+    </item>
+
+</items>
